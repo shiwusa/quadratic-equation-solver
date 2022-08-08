@@ -43,3 +43,18 @@ details {
 	position: fixed;
 	top: 0;
 }
+
+li {
+	display: inline-block;
+	background-color: #FFFCB1;
+	padding: 1%;
+	border-radius: 20px;
+	box-shadow: 5px 5px 5px #93D998;
+}
+a{
+	text-decoration: none;
+	color:#496B5F;
+}
+ul {
+	text-align: center;
+}
