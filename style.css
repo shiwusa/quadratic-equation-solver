@@ -1,0 +1,45 @@
+body, html {
+	background-color: #AFF0C6;
+	font-family: "Andale Mono", monospace;
+	color: #496B5F;
+}
+
+h1 {
+	text-align: center;
+	font-size: 3em;
+	margin: 15% 0 0 0;
+	padding-bottom: 0.5em;
+	padding-top: 0.5em;
+	box-shadow: 5px 5px 5px #93D998;
+	border-left: 2px dashed #93D998;
+	border-top: 2px dashed #93D998;
+
+}
+
+section {
+	width: 30%; 
+    margin: auto;
+	margin-top: 1%;
+	background-color: #93D998;
+	text-align: center;
+	border-radius: 20px;
+	padding-top: 20px;
+	padding-bottom: 10px;
+	font-size: 1.3em;
+}
+input {
+	width: 10%;
+}
+
+button {
+	display: inline-block;
+	margin-top: 4%;
+	margin-bottom: 2%;
+	color: #496B5F;
+	padding: 1%;
+}
+
+details {
+	position: fixed;
+	top: 0;
+}
