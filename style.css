@@ -17,7 +17,7 @@ h1 {
 }
 
 section {
-	width: 30%; 
+	width: 50%; 
     margin: auto;
 	margin-top: 1%;
 	background-color: #93D998;
@@ -57,4 +57,21 @@ a{
 }
 ul {
 	text-align: center;
+}
+
+#quiz {
+	display: none;	
+	text-align: left;
+	width: 90%;
+}
+
+#start {
+	margin: 0;
+}
+#cont {
+	padding: 1%;
+}
+#question {
+	font-size: 1.2em;
+	text-decoration: underline;
 }

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Guess the number</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<script type="text/javascript" src="script2.js"></script>
+</head>
+<body>
+	<header>
+		<nav>
+	        <ul>
+	        <li><a href="index.html">Quadratic equation solver</a></li>
+	        <li><a href="index1.html">Guess a number</a></li>
+	        <li><a href="index2.html">Quiz</a></li>
+        </ul>
+    </nav>
+		<h1>A little quiz</h1>
+	</header>
+	<main>
+		<section id="cont">
+			<section id="quiz">
+				  <div id="question"></div>
+				  <input type="checkbox" name="first">
+				  <label for="first" id="first"></label>
+				  <br>
+				  <input type="checkbox" name="second">
+				  <label for="second" id="second"></label>
+				  <br>
+				  <input type="checkbox" name="third">
+				  <label for="third" id="third"></label>
+				  <br>
+				  <button onclick="next()">Confirm</button>
+		  	</section>
+		  <div id="finish"></div>
+		  <button onclick="start()" id="start">Start quiz</button>
+  		</section>
+	</main>
+
+</body>
+</html>
